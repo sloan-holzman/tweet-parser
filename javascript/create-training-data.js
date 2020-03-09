@@ -16,7 +16,7 @@ function getIndicesOf(searchStr, str) {
     return indices
 }
 
-// TODO: update to have multiple entities
+// TODO: update to have different entry type
 tweets.forEach(tweet => {
     const entityIndices = getIndicesOf(tweet, INSERT);
     const finalTweet = tweet.replace(/xxx/g, '');
