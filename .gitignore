@@ -3,4 +3,6 @@
 # misc
 .DS_Store
 **.idea/**
+.idea/**
 .env
+**/.env
